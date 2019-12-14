@@ -10,6 +10,6 @@ Documentation du [module sur le site altazion.dev](https://www.altazion.dev/sign
 
 ### Digital Signage
 
-- (Publicités statiques Miam Miam)[digital-signage/slides/miam-miam-basiques/index.md]
+- [Publicités statiques Miam Miam](digital-signage/slides/miam-miam-basiques/index.md)
 
 ### Interactive Signage
