@@ -1,0 +1,123 @@
+.center {
+    text-align: center;
+}
+
+.middle {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+h1 span {
+    font-weight: 900;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.Pub {
+    background-size: 100%;
+    position: absolute;
+    max-width: 1080px;
+    max-height: 1920px;
+    height: 100%;
+    text-align: center;
+    width: 100%
+}
+
+.citation p {
+    font-size: 74px;
+    line-height: 92px;
+    padding: 7.18% 10.50% 0;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.citation p.cita {
+    opacity: 1;
+    transition: all 0.25s;
+    transition-delay: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.ng-hide .citation p.cita {
+    opacity: 0;
+    transform: translateX(250px);
+}
+
+.citation p.auteur {
+    font-size: 48px;
+    line-height: 50px;
+    padding: 2% 12.03%;
+    font-style: normal;
+    color: #f1c3b5;
+    transition: all 0.25s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.ng-hide .citation p.auteur {
+    opacity: 0;
+    transform: translateX(250px);
+}
+
+.img-bottom {
+    position: absolute;
+
+    left: 10.50%;
+    right: 10.50%;
+    bottom: 5.78%;
+
+    opacity: 1;
+    transition: all 0.5s;
+    transition-delay: 0.25s;
+}
+
+.ng-hide .img-bottom {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.img-bottom p {
+    font-size: 48px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-weight: 300
+}
+
+.img-bottom .logo-miam {
+    position: relative;
+    z-index: 100
+}
+
+.img-bottom::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    background: url(resources/tiret.png)no-repeat center center;
+}
+
+.Pub {
+    font-size: 30px;
+    line-height: 1.125em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.25s;
+    opacity: 1;
+    background: transparent url(resources/bg-crepes.jpg) no-repeat center center;
+}
