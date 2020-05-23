@@ -8,8 +8,12 @@ Documentation du [module sur le site altazion.dev](https://www.altazion.dev/sign
 
 ## Liste des exemples 
 
-### Digital Signage
+### Slides Digital Signage
 
-- [Publicités statiques Miam Miam](digital-signage/slides/miam-miam-basiques/)
+- [Publicités statiques Miam Miam](signage-slides/basiques/miam-miam/)
 
-### Interactive Signage
+### Interactive signage
+
+Les exemples d'interactive-signage sont hébergés dans d'autre repo GitHub :
+
+- TinyShop : [https://github.com/altazion/interactive-template-tinyshop](https://github.com/altazion/interactive-template-tinyshop)
