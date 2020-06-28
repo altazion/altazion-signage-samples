@@ -1,0 +1,83 @@
+.ng-hide {
+	opacity: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.middle {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 90px;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+h1 span {
+	font-weight: 900;
+}
+
+img {
+	max-width: 100%;
+}
+
+.Pub {
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height: 1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	font-size: 30px;
+	line-height: 1.125em;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    transition:all 0.25s;
+    opacity:1;	
+
+}
+
+.Pub {
+	background: transparent url(resources/bg-appli.jpg) no-repeat center center;
+}
+
+.miam3-txt {
+	padding: 0 auto;
+	text-align: center;
+	transition: all 0.5s;
+	transition-delay: 0.25s;
+}
+
+.ng-hide .miam3-txt {
+	opacity: 0;
+	transform: scale(0.75);
+}
+
+.miam3-txt p {
+	font-size: 80px;
+	line-height: 90px;
+	font-weight: 400;
+}
+
+.miam3-txt p b {
+	font-weight: 900;
+}
+
+.logo-miam {
+	margin: 10% auto 7%;
+	opacity: 1;
+	transition: all 0.5s;
+	transition-delay: 0.25s;
+}
+
+.ng-hide .logo-miam {
+	opacity: 0;
+	transform: translateY(-50px);
+}
