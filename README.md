@@ -1,4 +1,4 @@
-# altazion-signage-samples
+# signage-samples
 
 Des exemples de thèmes, package et extensions pour le module Altazion Signage.
 
