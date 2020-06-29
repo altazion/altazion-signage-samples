@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Slide xmlns="https://schemas.altazion.com/store/slide.xsd">
+  <Name>Publicité application</Name>
+  <Identity>miam-miam-corp.signagne.2017.appli</Identity>
+  <Version>1.0</Version>
+  <Description>Slide de démonstration : opérations crèpes pour miam-miam.</Description>
+  <Author>Michael CARBENAY &amp; Yoann COPIER</Author>
+  <IsInteractive>false</IsInteractive>
+  <Orientation>V</Orientation>
+</Slide>
